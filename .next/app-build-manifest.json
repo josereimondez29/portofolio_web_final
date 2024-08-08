@@ -11,6 +11,22 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/(blogs)/blog-3/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(blogs)/blog-3/page.js"
+    ],
+    "/(contacts)/contact-3/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(contacts)/contact-3/page.css",
+      "static/chunks/app/(contacts)/contact-3/page.js"
+    ],
+    "/(homes)/home-3/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(homes)/home-3/page.js"
     ]
   }
 }

@@ -1,8 +1,4 @@
-import Hero from "@/components/preview/Hero";
-import Buy from "@/components/preview/Buy";
-import CopyRight from "@/components/preview/CopyRight";
-import Demo from "@/components/preview/Demo";
-import Features from "@/components/preview/Features";
+import Home3 from "./(homes)/home-3/page";
 
 import "../public/assets/css/style.css";
 
@@ -14,11 +10,8 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Hero />
-      <Demo />
-      <Features />
-      <Buy />
-      <CopyRight />
+      <Home3 />
+      
     </>
   );
 }
