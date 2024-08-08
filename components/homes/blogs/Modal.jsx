@@ -48,7 +48,7 @@ export default function Modal({ setShowModal, showModal, modalContent }) {
               <div className="h1-modal-img">
                 {modalContent?.image && (
                   <Image
-                    src={`https://cuddly-space-carnival-5wrwjwv7j793pg6-8000.app.github.dev${modalContent.image}`}
+                    src={`https://solid-space-rotary-phone-xjpj7jrg69gfvppx-8000.app.github.dev${modalContent.image}`}
                     width={800}
                     height={450}
                     layout="responsive"
