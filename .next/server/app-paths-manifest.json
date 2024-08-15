@@ -1,4 +1,21 @@
 {
+  "/_not-found": "app/_not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(abouts)/about-2/page": "app/(abouts)/about-2/page.js",
+  "/(blogs)/blog-2/page": "app/(blogs)/blog-2/page.js",
   "/(blogs)/blog-3/page": "app/(blogs)/blog-3/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/(blogs)/blog/page": "app/(blogs)/blog/page.js",
+  "/(contacts)/contact-2/page": "app/(contacts)/contact-2/page.js",
+  "/(contacts)/contact-3/page": "app/(contacts)/contact-3/page.js",
+  "/(contacts)/contact/page": "app/(contacts)/contact/page.js",
+  "/(homes)/home-1/page": "app/(homes)/home-1/page.js",
+  "/(homes)/home-2/page": "app/(homes)/home-2/page.js",
+  "/(homes)/home-3/page": "app/(homes)/home-3/page.js",
+  "/(portfolios)/portfolio-2/page": "app/(portfolios)/portfolio-2/page.js",
+  "/(portfolios)/portfolio-3/page": "app/(portfolios)/portfolio-3/page.js",
+  "/(portfolios)/portfolio/page": "app/(portfolios)/portfolio/page.js",
+  "/(resumes)/resume-2/page": "app/(resumes)/resume-2/page.js",
+  "/(resumes)/resume-3/page": "app/(resumes)/resume-3/page.js",
+  "/(resumes)/resume/page": "app/(resumes)/resume/page.js",
+  "/page": "app/page.js"
 }
