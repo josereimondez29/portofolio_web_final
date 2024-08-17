@@ -10,3 +10,10 @@ python portofolio_web/manage.py collectstatic --no-input
 
 # Apply any outstanding database migrations
 python portofolio_web/manage.py migrate
+
+# Print PYTHONPATH for debugging
+echo "PYTHONPATH: $PYTHONPATH"
+
+# Print directory structure for debugging
+echo "Directory structure:"
+ls -R
