@@ -4,7 +4,7 @@ module.exports = {
       remotePatterns: [
         {
           protocol: 'https',
-          hostname: 'solid-space-rotary-phone-xjpj7jrg69gfvppx-8000.app.github.dev',
+          hostname: 'solid-space-rotary-phone-xjpj7jrg69gfvppx-8000.app.github.dev/',
         },
       ],
     },
