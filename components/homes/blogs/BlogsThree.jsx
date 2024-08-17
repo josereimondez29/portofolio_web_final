@@ -28,7 +28,7 @@ export default function BlogsThree() {
 
   const fetchBlogData = async () => {
     try {
-      const response = await axios.get("https://solid-space-rotary-phone-xjpj7jrg69gfvppx-8000.app.github.dev/api/posts/");
+      const response = await axios.get("https://portofolio-web-final.onrender.com/api/posts/");
       setBlogData(response.data);
       setOutputArray(chunkArray(response.data, 4));
       setShowSlider(true);
@@ -79,7 +79,7 @@ export default function BlogsThree() {
                                       width: "100%",
                                       height: "fit-content",
                                     }}
-                                    src={`https://solid-space-rotary-phone-xjpj7jrg69gfvppx-8000.app.github.dev${elm2.image}`} // Construir la URL completa para la imagen
+                                    src={`https://portofolio-web-final.onrender.com${elm2.image}`} // Construir la URL completa para la imagen
                                     alt={elm2.title} // Utiliza el título o alguna descripción relevante como alt
                                   />
                                 </a>
@@ -112,7 +112,7 @@ export default function BlogsThree() {
 
         <div className="footer-copyright text-center bg-light-white-2 pt-25 pb-25">
           <span>
-            © {new Date().getFullYear()} All Rights Reserved by ib-themes.
+            © {new Date().getFullYear()} Web diseñada por José Reimondez.
           </span>
         </div>
       </div>
