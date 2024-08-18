@@ -65,7 +65,7 @@ WSGI_APPLICATION = "portofolio_web.wsgi.application"
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://admin:Giuliana15@localhost:5432/portofolio_web',
+        default='postgresql://mysite:FWhbrP2mwDctQ5S0clDvZ0lPZ4kTehBa@dpg-cr08dq5umphs7392dibg-a/portofolio_j63x',
         conn_max_age=600
     )
 }
